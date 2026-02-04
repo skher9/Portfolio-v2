@@ -1,0 +1,1 @@
+export type { Profile, ProfileSocials, SkillsData, ExperienceEntry, ExperienceData, ProjectEntry, ProjectsData, BlogEntry, BlogsData, ContactData, SectionTitles, SkillsCategoryLabels } from './portfolio'

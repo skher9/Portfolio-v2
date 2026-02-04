@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Class-based dark mode: add .dark to an ancestor (e.g. html) to apply dark: styles */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    @apply bg-slate-200 text-slate-800;
+  }
+  html.dark {
+    @apply bg-black text-slate-200;
+  }
+  body {
+    @apply min-h-screen antialiased overflow-hidden bg-slate-200 dark:bg-black;
+  }
+}
