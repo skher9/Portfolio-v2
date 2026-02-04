@@ -9,9 +9,9 @@ const profile = {
   birthday: "9th Aug 1998",
   avatar: selfImage,
   socials: {
-    github: "https://github.com/your-username",
-    linkedin: "https://linkedin.com/in/your-username",
-    medium: "https://medium.com/@your-username",
+    github: "https://github.com/skher9",
+    linkedin: "https://www.linkedin.com/in/shravani-kher-0875281b6/",
+    medium: "https://medium.com/@skher3318",
   },
 }
 
